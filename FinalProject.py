@@ -122,9 +122,11 @@ def play():
             TicTacToe.change_board(position, player.type)
         
             if TicTacToe.isThereWinner(player):
+                time.sleep(3)
                 print("{} is the Winner!".format(player))
                 break
             else:
+                time.sleep(3)
                 player = TicTacToe.switchPlayers(player)
             if filledSpaces == 9 and TicTacToe.isThereWinner(player)==False:
                 print("Game over! It's a tie!")
