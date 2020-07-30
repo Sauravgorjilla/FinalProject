@@ -11,13 +11,13 @@ that uses the classes previously set up in order to create a function that actua
 Finally, a loop is used in order to actually play the game, and see if the player wants to end the program or play again,
 where it will just continue the loop again.
 A portion of the code was borrowed from open forums and mended heavily to fit the program and our requirements,
-hence the inclusion of some functions that may have not been included in our course.
+hence the inclusion of some concepts that may have not been explored in depth in our course.
 
 Requirements:
 
 Tic Tac Toe is played on a 3 by 3 grid
-One player is assigned X, one player is assigned O
-Player X goes first, Player O goes 2nd and the players alternate turns
-If any player gets 3 Xs/Os in each direction they win
+.One player is assigned X, and the other player is assigned O at random.
+.Player X goes first, Player O goes 2nd and the players alternate turns untill the game ends.
+If any player gets 3 Xs/Os in each direction(up down or cross) they win the game.
 If the grid is filled up and there isn’t a winner, the game is declared a tie
 
