@@ -19,7 +19,6 @@ def intro():
         print( player2 + " is X. " + player1 + " is O.")
     time.sleep(1.5)
 def switchPlayersIntext(person):
-        print("It's your turn," + person + ".Which place would you like to move to?")
         if person == 'X':
                 return person == 'O'
         else:
@@ -122,11 +121,9 @@ def play():
             TicTacToe.change_board(position, player.type)
         
             if TicTacToe.isThereWinner(player):
-                time.sleep(3)
                 print("{} is the Winner!".format(player))
                 break
             else:
-                time.sleep(3)
                 player = TicTacToe.switchPlayers(player)
             if filledSpaces == 9 and TicTacToe.isThereWinner(player)==False:
                 print("Game over! It's a tie!")
@@ -135,6 +132,8 @@ def play():
 if True:
     while True:
         intro()
+        print("X goes first!")
+        time.sleep(1)
         play()
         print("Would you like to play again?(yes or no)")
         answer = input()
@@ -152,3 +151,4 @@ if True:
     
             
               
+
