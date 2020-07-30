@@ -10,8 +10,7 @@ Next, the program defines a function called the play function,
 that uses the classes previously set up in order to create a function that actually executes the game.
 Finally, a loop is used in order to actually play the game, and see if the player wants to end the program or play again,
 where it will just continue the loop again.
-A portion of the code was borrowed from open forums and mended heavily to fit the program and our requirements,
-hence the inclusion of some concepts that may have not been explored in depth in our course.
+
 
 Requirements:
 
